@@ -20,6 +20,14 @@ Adapted from traditional Safety Integrity Levels (SIL/IEC 61508), ARL provides q
 - **ARL-3 (Collaborative):** Active **Runtime Verification (RV)** protocols.
 - **ARL-4 (Autonomous):** Formal mathematical grounding with immutable integrity certificates.
 
+## 🌍 Strategic Alignment
+
+This project is aligned with the global transition toward **Industry 5.0** and **Society 5.0**, as emphasized in the **2022 UN Commission on Science and Technology for Development (CSTD)** updates:
+
+- **Human-Centricity:** OIF formalizes human-machine collaboration (ARL 1-2).
+- **Resilience:** Addressing **SDG 9** (Industry, Innovation, and Infrastructure) through formal AI grounding and verification.
+- **SDG Protection:** Mitigating the 59 SDG targets potentially inhibited by unaligned AI systems through real-time verification of operational integrity.
+
 ---
 
 ## 📂 Project Structure

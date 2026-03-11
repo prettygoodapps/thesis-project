@@ -8,6 +8,7 @@ This document tracks all academic, industrial, and regulatory sources used in th
 | ID | Source Name | Year | Status | Analysis Link |
 |---|---|---|---|---|
 | NIST-AI-RMF | [NIST AI Risk Management Framework 1.0](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf) | 2023 | Vetted | [20260311_gemini_research_nist-ai-rmf.md](20260311_gemini_research_nist-ai-rmf.md) |
+| UN-CSTD-2022 | [UN CSTD: Industry 4.0 for Inclusive Development](https://undocs.org/E/CN.16/2022/2) | 2022 | Vetted | [20260311_gemini_research_un-sdg-industry-5.0.md](20260311_gemini_research_un-sdg-industry-5.0.md) |
 | EU-AI-ACT | [Regulation (EU) 2024/1689 (EU AI Act)](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689) | 2024 | Identified | [Analysis] |
 | ISO-26262 | Road vehicles – Functional safety | 2018 | Identified | [Analysis] |
 | ISO/IEC-5469 | [Functional Safety and AI Systems (TR)](https://www.iso.org/standard/83610.html) | 2024 | Vetted | [20260311_gemini_research_iso-iec-5469.md](20260311_gemini_research_iso-iec-5469.md) |
