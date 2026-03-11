@@ -1,6 +1,6 @@
 # GEMINI.md — Thesis Project Context
 
-Project-specific instructions for Gemini. Global workstation conventions are in `/home/pas/projects/GEMINI.md`.
+Project-specific instructions for Gemini. Global workstation conventions are in `[PROJECT_ROOT]/GEMINI.md`.
 
 ## Project Overview
 
@@ -10,9 +10,9 @@ This directory serves as the research and development hub for a Master's degree 
 
 ## Ecosystem Context
 
-This project is part of a Linux workstation ecosystem located at `/home/pas/projects/`.
-- Global conventions are defined in `/home/pas/projects/GEMINI.md`.
-- **Knowledge Base:** Use the Obsidian vault at `/home/pas/projects/agent-workspace/vault/` for session logs and research.
+This project is part of a Linux workstation ecosystem located at `[PROJECT_ROOT]/`.
+- Global conventions are defined in `[PROJECT_ROOT]/GEMINI.md`.
+- **Knowledge Base:** Use the Obsidian vault at `[PROJECT_ROOT]/agent-workspace/vault/` for session logs and research.
 - **Project Linkage:** Run `as-link thesis-project docs` to symlink documentation into the vault.
 
 ## Directory Structure
@@ -101,6 +101,14 @@ The final output of any deliberation is a formal **TDR** (Industry Standard):
 - **Options Considered:** Summary of parallel model proposals.
 - **Rationale & Consequences:** The engineering logic and impact on the thesis.
 
+## Security Enforcement
+
+This project maintains a **Zero-Tolerance Security Policy**. All files must be audited for sensitive data (e.g., absolute paths, secrets, `.env` files) before being pushed to a remote repository.
+
+- **Mandatory Agent:** The `security-lint` agent MUST be invoked before any `git push`, `gh repo create`, or `as-push` operation.
+- **Strict Guardrail:** If the security linting fails, all pushing operations MUST be aborted until the identified issues are resolved.
+- **Auditor Role:** Gemini acts as the **Security Auditor** in this project, proactively identifying and correcting security risks before they leave the workstation environment.
+
 ## Technical Conventions
 
 - **Committing:** Use `as-push` for commits. Follow conventional commits (`feat:`, `docs:`, `chore:`, etc.).
@@ -115,4 +123,4 @@ The final output of any deliberation is a formal **TDR** (Industry Standard):
 
 ---
 
-*Note: This file provides project-specific context. For global workstation guidelines, see `/home/pas/projects/GEMINI.md`.*
+*Note: This file provides project-specific context. For global workstation guidelines, see `[PROJECT_ROOT]/GEMINI.md`.*

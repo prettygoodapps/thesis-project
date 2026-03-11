@@ -2,7 +2,7 @@
 
 # Configuration
 SESSION="deliberation"
-WORKSPACE="/home/pas/projects/thesis-project"
+WORKSPACE="."
 
 # Check if the session already exists
 tmux has-session -t "$SESSION" 2>/dev/null

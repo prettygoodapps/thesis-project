@@ -1,6 +1,6 @@
 # CLAUDE.md — Thesis Project
 
-Project-specific instructions for Claude Code. Global workstation conventions are in `/home/pas/projects/CLAUDE.md`.
+Project-specific instructions for Claude Code. Global workstation conventions are in `[PROJECT_ROOT]/CLAUDE.md`.
 
 ## Project Overview
 
@@ -86,4 +86,4 @@ Cross-platform sync of shared sections is handled automatically by `scripts/sync
 
 ---
 
-*Note: This file provides project-specific context. For global workstation guidelines, see `/home/pas/projects/CLAUDE.md`.*
+*Note: This file provides project-specific context. For global workstation guidelines, see `[PROJECT_ROOT]/CLAUDE.md`.*

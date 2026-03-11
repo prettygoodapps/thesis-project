@@ -20,7 +20,7 @@ tags: [ai-generated, claude, review, thesis, config-audit]
 
 # Platform Config File Audit: CLAUDE.md vs GEMINI.md
 
-**Scope:** `/home/pas/projects/thesis-project/CLAUDE.md` and `GEMINI.md`
+**Scope:** `./CLAUDE.md` and `GEMINI.md`
 **Reference:** `docs/AI-DOCUMENT-CONVENTIONS.md`
 **Date:** 2026-03-10
 
