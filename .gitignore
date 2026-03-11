@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.python-version
+.pytest_cache/
+.coverage
+.cache
+.tox/
+.nox/
+.hypothesis/
+.idea/
+.vscode/
+
+# Build / Distribution
+build/
+dist/
+*.egg-info/
+*.whl
+
+# Environment
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific
+scripts/.venv/
+scripts/__pycache__/
